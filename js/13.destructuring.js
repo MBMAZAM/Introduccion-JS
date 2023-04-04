@@ -6,7 +6,7 @@ const producto = {
 }
 
 
-// // Forma Anterior
+// Forma Anterior
 // const precioProducto = producto.precio;
 // const nombreProducto = producto.nombreProducto;
 
