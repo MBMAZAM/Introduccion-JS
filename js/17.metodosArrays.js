@@ -9,7 +9,7 @@ numeros.unshift(-10,-20,-30); // Se agrega al inicio
 console.table(numeros);
 
 
-const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo']
+const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo'];
 
 console.table(meses);
 
