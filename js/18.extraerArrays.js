@@ -1,3 +1,5 @@
+// Array Metodos
+
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo'];
 
 const carrito = [
@@ -47,13 +49,13 @@ console.log(resultado);
 
 resultado = carrito.filter(function(producto){  // Total = Acumulador y producto.precio = Precio actual
     return producto.precio > 400
-}, 0)
+});
 
 console.log(resultado);
 
 
 resultado = carrito.filter(function(producto){  // Total = Acumulador y producto.precio = Precio actual
     return producto.nombre !== 'Celular'
-}, 0)
+});
 
 console.log(resultado);
