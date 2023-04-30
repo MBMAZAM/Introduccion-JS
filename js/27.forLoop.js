@@ -1,10 +1,14 @@
 // For Loop
 
-console.log(1);
-console.log(2);
-console.log(3);
-console.log(4);
+// for (let i = 0; i < 10; i++) {
+//     console.log(i);
+// }
 
+for (let i = 0; i < 10; i++) {
+    if (i % 2 === 0) {
+        console.log(`El Número ${i} es PAR`);
+    }
+}
 
 // While Loop
 
