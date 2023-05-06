@@ -26,3 +26,8 @@ const producto4 = new Producto('Celular"', 2800, "LG");
 console.log(producto2);
 console.log(producto3);
 console.log(producto4);
+
+
+function formatearProducto(params) {
+    
+}
