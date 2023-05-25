@@ -23,9 +23,11 @@ usuarioAutenticado
         console.log(error);
     })
 
-usuarioAutenticado
-    .then(resultado => console.log(resultado))
-    .catch(error => console.log(error))
+// Forma corta de utilizar
+
+// usuarioAutenticado
+//     .then(resultado => console.log(resultado))
+//     .catch(error => console.log(error))
 
 
 // En los Promises existen 3 valores
